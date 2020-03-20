@@ -16,7 +16,7 @@ function Header(props) {
             <Link to={'/interests'}>
                 <button>Hobbies & Interests</button>
             </Link>
-            <a href='https://github.com/BurlingtonCodeAcademy/tic-tac-toe-ZenArcade17' target="_blank">
+            <a href='https://github.com/BurlingtonCodeAcademy/tic-tac-toe-ZenArcade17' target="_blank" rel="noopener noreferrer">
                 <button>External</button>
             </a>
         </div>
