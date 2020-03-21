@@ -2,23 +2,25 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 function Header(props) {
-    return(
-        <div>
-            <Link to={'/'}>
-                <button>Home</button>
-            </Link>
-            <Link to={'/about'}>
-                <button>About</button>
-            </Link>
-            <Link to={'/portfolio'}>
-                <button>Portfolio</button>
-            </Link>
-            <Link to={'/interests'}>
-                <button>Hobbies & Interests</button>
-            </Link>
-            <a href='https://github.com/BurlingtonCodeAcademy/tic-tac-toe-ZenArcade17' target="_blank" rel="noopener noreferrer">
-                <button>External</button>
-            </a>
+    return (
+        <div id='header'>
+            <div id="icon">
+                <div id="icon-text">KM</div>
+            </div>
+            <div id="head-links">
+                <Link className="link" to={'/'}>
+                    <div>Home</div>
+                </Link>
+                <Link className="link" to={'/about'}>
+                    <div>About</div>
+                </Link>
+                <Link className="link" to={'/portfolio'}>
+                    <div>Portfolio</div>
+                </Link>
+                <Link className="link" to={'/interests'}>
+                    <div>Hobbies & Interests</div>
+                </Link>
+            </div>
         </div>
     )
 }

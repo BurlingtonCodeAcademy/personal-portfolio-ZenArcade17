@@ -1,5 +1,4 @@
 import React from 'react'
-import './App.css';
 import Header from './Header'
 import About from './About'
 import Portfolio from './Portfolio'
@@ -9,14 +8,16 @@ import Interests from './Interests'
 
 function App() {
   return (
-    <div>
+    <div id='main'>
       <Header />
-      <Switch>
-        <Route exact path={'/'} component={Home} />
-        <Route path={'/about'} component={About} />
-        <Route path={'/portfolio'} component={Portfolio} />
-        <Route path={'/interests'} component={Interests} />
-      </Switch>
+      <div id='content'>
+        <Switch>
+          <Route exact path={'/'} component={Home} />
+          <Route path={'/about'} component={About} />
+          <Route path={'/portfolio'} component={Portfolio} />
+          <Route path={'/interests'} component={Interests} />
+        </Switch>
+      </div>
     </div>
   );
 }
