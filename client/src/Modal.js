@@ -6,10 +6,10 @@ class Modal extends React.Component {
 
         return (
             <div id="modal">
-
-                <h1>Hello Modal</h1>
-                <button id='closeButton' onClick={this.props.close}>Close</button>
-
+                <div id="modal-content">
+                    <h1>Hello Modal</h1>
+                    <button className="close" onClick={this.props.close}>Close</button>
+                </div>
             </div>
         )
     }
