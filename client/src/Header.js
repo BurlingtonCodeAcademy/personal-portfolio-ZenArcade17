@@ -18,7 +18,7 @@ function Header(props) {
                     <div>Portfolio</div>
                 </Link>
                 <Link className="link" to={'/interests'}>
-                    <div>Hobbies & Interests</div>
+                    <div>Interests</div>
                 </Link>
             </div>
         </div>
