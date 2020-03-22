@@ -77,6 +77,7 @@ a:active {
   color: yellow;
 }
 
+
 /****Modal styles****/
 #modal {
   width: 100%;
@@ -86,7 +87,28 @@ a:active {
   top: 0;
   left: 0;
   overflow: auto;
-  background-color: rgba(0, 0, 0, .3);
+  background-color: rgba(50, 21, 53, 0.904);
+}
+
+/* Modal Header */
+
+#modal-header {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+#x-close, .proj-links:hover {
+  cursor: pointer;
+}
+
+/* Modal Body */
+#modal-body {overflow: hidden}
+
+/* Modal Footer */
+#modal-footer {
+  padding: 2px 16px;
+
 }
 
 @keyframes animatetop {
@@ -105,10 +127,16 @@ a:active {
   margin: 5% auto; 
   padding: 10px;
   border: 1px solid #888;
-  width: 80%; 
-  height: 50vh;
+  overflow: auto;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
   animation-name: animatetop;
   animation-duration: 0.3s;
+}
+
+#screenshots {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* The Close Button */
