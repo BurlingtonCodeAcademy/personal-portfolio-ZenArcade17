@@ -77,6 +77,12 @@ a:active {
   color: yellow;
 }
 
+/*------Portfolio-----*/
+
+.proj-links {
+  padding: 10px
+}
+
 
 /****Modal styles****/
 #modal {
@@ -94,8 +100,9 @@ a:active {
 
 #modal-header {
   padding: 2px 16px;
-  background-color: #5cb85c;
+  background-color: #e00909;
   color: white;
+  border-radius: 10px
 }
 
 #x-close, .proj-links:hover {
@@ -103,7 +110,10 @@ a:active {
 }
 
 /* Modal Body */
-#modal-body {overflow: hidden}
+#modal-body {
+  overflow: hidden;
+
+}
 
 /* Modal Footer */
 #modal-footer {
@@ -124,6 +134,8 @@ a:active {
   justify-content: space-between;
   align-items: center;
   background-color: #fefefe;
+  width: 90vw;
+  height: 80vh;
   margin: 5% auto; 
   padding: 10px;
   border: 1px solid #888;
@@ -152,4 +164,13 @@ a:active {
   color: black;
   text-decoration: none;
   cursor: pointer;
+}
+
+/*-------footer-----*/
+
+#footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px;
 }
