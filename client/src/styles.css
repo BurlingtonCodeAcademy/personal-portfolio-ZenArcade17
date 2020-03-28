@@ -8,6 +8,7 @@
   border: 6px solid  rgb(46, 44, 48);
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 #header {
@@ -48,7 +49,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+  width: 100%;
 }
 
 h2 {
@@ -56,6 +57,11 @@ h2 {
   font-weight: 75;
   color:  rgb(46, 44, 48);
   margin-bottom: 2em;
+}
+
+#home-pic {
+  width: inherit;
+  max-width: 600px
 }
 
 .content-links {
