@@ -21,7 +21,8 @@
 #icon {
   border: 6px solid rgb(107, 9, 107);
   border-radius: 0.3em;
-  padding: .5em
+  padding: .5em;
+  
 }
 
 #icon-text {
@@ -61,7 +62,8 @@ h2 {
 
 #home-pic {
   width: inherit;
-  max-width: 600px
+  max-width: 600px;
+  min-width: 340px
 }
 
 .content-links {
@@ -179,4 +181,24 @@ a:active {
   justify-content: center;
   padding: 20px;
   margin: 20px;
+}
+
+@media screen and (max-width: 545px) {
+
+  #header {
+    margin-bottom: 2em;
+  }
+
+  #icon {
+    height: 4.3em
+  }
+
+  #head-links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .link {
+    padding: 0px 0px 15px 15px
+  }
 }
