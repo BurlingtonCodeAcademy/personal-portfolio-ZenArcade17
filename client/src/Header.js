@@ -5,20 +5,22 @@ function Header(props) {
     return (
         <div id='header'>
             <div id="icon">
-                <div id="icon-text">KM</div>
+                <div id="icon-border">
+                    <div id="icon-text">KM</div>
+                </div>
             </div>
             <div id="head-links">
                 <Link className="link" to={'/'}>
-                    <div>Home</div>
+                    Home
                 </Link>
                 <Link className="link" to={'/about'}>
-                    <div>About</div>
+                    About
                 </Link>
                 <Link className="link" to={'/portfolio'}>
-                    <div>Portfolio</div>
+                    Projects
                 </Link>
                 <Link className="link" to={'/interests'}>
-                    <div>Interests</div>
+                    Interests
                 </Link>
             </div>
         </div>
