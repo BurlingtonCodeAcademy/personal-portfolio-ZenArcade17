@@ -13,14 +13,8 @@ function Header(props) {
                 <Link className="link" to={'/'}>
                     Home
                 </Link>
-                <Link className="link" to={'/about'}>
-                    About
-                </Link>
-                <Link className="link" to={'/portfolio'}>
+                <Link className="link" to={'/projects'}>
                     Projects
-                </Link>
-                <Link className="link" to={'/interests'}>
-                    Interests
                 </Link>
             </div>
         </div>

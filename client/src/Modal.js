@@ -8,13 +8,16 @@ class Modal extends React.Component {
             <div id="modal">
                 <div id="modal-content">
                     <div id="modal-header">
-                        <span id="x-close" onClick={this.props.close}>&times;</span>
+                        
                         <h1>{this.props.projData[parseInt(this.props.projId)].name}</h1>
                     </div>
                     <div id="modal-body">
-                        <p>{this.props.projData[parseInt(this.props.projId)].description}</p>
+                        <p className='proj-des'>{this.props.projData[parseInt(this.props.projId)].description}</p>
+                        <br></br>
+                        <p className='proj-des'>{this.props.projData[parseInt(this.props.projId)].tech}</p>
                     </div>
-                         <a href={this.props.projData[parseInt(this.props.projId)].repoLink} target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+                    {this.props.projData[parseInt(this.props.projId)].herokuLink ? <a className='mod-links' href={this.props.projData[parseInt(this.props.projId)].herokuLink} target="_blank" rel="noopener noreferrer">Visit App!</a> : null}
+                    <a className='mod-links' href={this.props.projData[parseInt(this.props.projId)].repoLink} target="_blank" rel="noopener noreferrer">GitHub Repository</a>
                     <div id="modal-footer">
                         <button className="close" onClick={this.props.close}>Back to Projects</button>
                     </div>
