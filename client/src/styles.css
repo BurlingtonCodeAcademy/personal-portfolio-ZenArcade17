@@ -75,9 +75,9 @@
 
 .about-text {
   font-size: calc(12px + .5vw);
-  font-family: italic, cursive;
+  font-family: "Adamina", serif;
   color:  rgb(46, 44, 48);
-  line-height: 1.7;
+  line-height: 2;
 }
 
 #cat-pic {
@@ -167,10 +167,11 @@ a:active {
 
 #modal-header {
   padding: 1% 2%;
-  background-color: #e00909;
+  background-color: rgb(107, 9, 107);
   color: white;
   border-radius: 10px;
   margin-bottom: 2vh;
+  text-align: center;
 }
 
 #x-close, .proj-links:hover {
@@ -185,13 +186,13 @@ a:active {
 
 .proj-des {
   font-size: larger;
-  font-family: italic, cursive;
+  font-family: "Adamina", serif;
   color:  rgb(46, 44, 48);
-  /* line-height: 1.7; */
+  line-height: 1.5;
 }
 
 .mod-links {
-  margin-top: 20px;
+  margin-top: 30px;
   text-decoration: none;
   font-weight: bold;
   font-size: x-large;
@@ -239,7 +240,7 @@ a:active {
   float: right;
   font-size: 28px;
   font-weight: bold;
-  margin-top: 15px;
+  margin-top: 25px;
 }
 
 .close:hover,
